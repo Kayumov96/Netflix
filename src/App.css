@@ -4,6 +4,26 @@
 body {
   background-color: #111111;
 }
+.login {
+  text-align: center;
+  padding-top: 200px;
+}
+.login > img {
+  width: 200px;
+}
+.login > .loginBtn {
+  background-color: #ffffff;
+  color: #cd1820;
+  padding: 10px 45px;
+  margin-top: 25px;
+  border: none;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+}
+.loginBtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
